@@ -47,7 +47,7 @@ Third-Party Plugins:
 
 
 ## Screenshot
-![screenshot](http://www.croti.com/images/rookie-starter-theme.png)
+![screenshot](http://www.croti.com/images/Rookie-full-screenshot.png)
 
 ## Demo
 [Demo](http://rookie.croti.com/)
