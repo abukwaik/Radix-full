@@ -1,0 +1,10 @@
+
+#welcome_share { width: 100%; float: left; margin:0 0 20px}
+#welcome_share li { float: left; margin: 0 20px 0 0}
+#welcome_share li.twitter { width: 75px}
+#welcome_share li.gplus { width: 75px}
+#welcome_share li.facebook { width: 125px}
+div.updated {border-left: 4px solid #908dbd}
+ul#welcome_share {list-style: outside none none !important}
+div#setting-error-tgmpa.updated.settings-error {border-left: 4px solid #ffba00}
+
