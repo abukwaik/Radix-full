@@ -5,7 +5,7 @@ Fully Responsive WordPress Theme based on twitter bootstrap 3. Rookie is built w
 Nothing special that much:
 
 * Based on [_s](https://github.com/Automattic/_s)
-* Based on [bootstrap 3.3.2](http://getbootstrap.com/)
+* Based on [bootstrap 3.3.4](http://getbootstrap.com/)
 * Based on [bones](https://github.com/eddiemachado/bones)
 * 2 navigation menus (header-footer)
 * 12 widget areas
