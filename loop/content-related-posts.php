@@ -17,7 +17,7 @@ function related_posts($title = 'Related Posts', $count = '' ) {
   global $post;
   $tag_ids = array();
   $current_cat = get_the_category($post->ID);
-  $current_cat = $current_cat[0]->cat_ID;
+  $current_cat_id = $current_cat ? $current_cat[0]->cat_ID : 0;
   $this_cat = '';
   $count = ro_get_option( 'related_posts_count', '3' );
   $tags = get_the_tags($post->ID);

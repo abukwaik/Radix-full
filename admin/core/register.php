@@ -13,31 +13,15 @@
 **/
 
 // Primary menu
-function desktop_nav() {
-  wp_nav_menu(
-    array(
-      'menu'              => 'Primary',
-      'theme_location'    => 'primary',
-      'container'         => false,
-      'menu_class'        => 'nav navbar-nav navbar-right',
-      'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-      'walker'            => new wp_bootstrap_navwalker()
-      ) 
-    );
-}
-
-// Mobile menu
-function mobile_nav() {
-  wp_nav_menu(
-    array(
-      'menu'              => 'Primary',
-      'theme_location'    => 'primary',
-      'container'         => false,
-      'menu_class'        => 'nav navbar-nav',
-      'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-      'walker'            => new wp_bootstrap_mobile_navwalker()
-      ) 
-    );
+function main_nav() {
+ wp_nav_menu(array(
+  'menu'              => 'Primary',
+  'theme_location'    => 'primary',
+  'container'         => false,
+  'menu_class'        => 'nav navbar-nav',
+  'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+  'walker'            => new wp_bootstrap_navwalker()
+  ) );
 }
 
 // Footer menu

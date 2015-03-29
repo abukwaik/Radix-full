@@ -61,21 +61,13 @@
                     </div> <!-- Logo -->
                 </div> <!-- navbar-brand -->
             </div> <!-- navbar-header -->
-            <?php if ( wp_is_mobile() ) : ?>
-                <nav id="mobile-menu" class="visible-xs" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
-                    <div class="collapse navbar-collapse">
-                        <?php mobile_nav(); ?>
-                    </div>
-                </nav> <!-- mobile-menu -->
-            <?php else: ?>
-                <nav id="desktop-menu" class="hidden-xs" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
-                    <?php desktop_nav(); ?>
-                </nav> <!-- desktop-menu -->
-            <?php endif; ?>
+            <nav id="desktop-menu" class="collapse navbar-collapse navbar-right" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+                <?php main_nav(); ?>
+            </nav> <!-- desktop-menu -->
         </div>  <!-- navbar navbar-default -->
     </div> <!-- container -->
 </header>  <!-- wrap -->
-<?php if( !is_front_page()) { ?>
+<?php if( !is_front_page() && !is_page_template( 'page-fullwidth.php' ) ) { ?>
 <?php get_template_part( 'loop/sub-header'); ?>
     <main id="content" class="site-content"> 
         <div class="main-content-area">

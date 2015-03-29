@@ -290,7 +290,7 @@ add_filter( 'pre_get_posts', 'exclude_search_pages' );
 if (!(is_admin()) && ro_get_option ('defer_loading_js')) {
   function defer_parsing_of_js ( $url ) {
     if ( FALSE === strpos( $url, '.js' ) ) return $url;
-    if ( strpos( $url, "jquery.js" ) && !is_front_page()) return $url;
+    if ( strpos( $url, "jquery.js" ) && !is_front_page() ) return $url;
     else
     return "$url' defer='defer";
   }

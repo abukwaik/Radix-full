@@ -18,7 +18,7 @@ define('THEME_DIR', get_template_directory());
 define('THEME_URI', get_template_directory_uri());
 define('THEME_NAME', 'Rookie');
 define('THEME_SLUG', 'rookie');
-define('THEME_VERSION', '1.0');
+define('THEME_VERSION', '1.1');
 define('THEME_OPTIONS', 'ro_settings');
 define('JS_URI',  THEME_URI . '/includes/js');
 define('CSS_URI', THEME_URI . '/includes/css');
@@ -245,16 +245,8 @@ require_once THEME_DIR . '/includes/breadcrumbs.php';
 // Bootstrap nav walker
 require_once THEME_DIR . '/includes/bootstrap-walker.php';
 
-// Bootstrap mobile nav walker
-if (wp_is_mobile()) {
-  require_once THEME_DIR . '/includes/mobile-navwalker.php';
-}
-
 // Bootstrap Pagination
 require_once THEME_DIR . '/includes/bootstrap-pagination.php';
-
-// Schema HTML markup
-require_once THEME_DIR . '/includes/markup.php';
 
 // Custom template tags
 require_once THEME_DIR . '/includes/template-tags.php';

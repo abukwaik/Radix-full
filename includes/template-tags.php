@@ -186,7 +186,7 @@ function rookie_entry_footer() {
 	if ( 'post' == get_post_type() ) {
 
 		$categories_list = get_the_category_list( __( ', ', 'rookie' ) );
-		if ( $categories_list && rookie_categorized_blog()) { ?>
+		if ( $categories_list ) { ?>
 			<span class="cat-links">
 				<i class="fa fa-folder-open" title="<?php __( 'Categories', 'rookie' ); ?>"></i>
 				<?php printf( __( 'Categories %1$s ', 'rookie' ), $categories_list ); ?>

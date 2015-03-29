@@ -89,7 +89,7 @@ get_header(); ?>
         <a class="next hidden-xs" href="#main-slider" data-slide="next">
             <i class="fa fa-chevron-right"></i>
         </a>
-    </section><!--/#main-slider-->
+</section><!--/#main-slider-->
 <?php the_post(); ?>
 <?php the_content(); ?>
 <?php get_footer(); ?>

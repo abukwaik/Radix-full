@@ -377,16 +377,16 @@ img.alignleft {
   border-color: #eee
 }
 
-.hidden-xs .navbar-nav > .open > a, 
-.hidden-xs .navbar-nav > .open > a:focus, 
-.hidden-xs .navbar-nav > .open > a:hover,
+#desktop-menu .navbar-nav > .open > a, 
+#desktop-menu .navbar-nav > .open > a:focus, 
+#desktop-menu .navbar-nav > .open > a:hover,
 
-.hidden-xs .navbar-nav > .active > a, 
-.hidden-xs .navbar-nav > .active > a:focus, 
-.hidden-xs .navbar-nav > .active > a:hover,
+#desktop-menu .navbar-nav > .active > a, 
+#desktop-menu .navbar-nav > .active > a:focus, 
+#desktop-menu .navbar-nav > .active > a:hover,
 
-.hidden-xs .navbar-nav > li > a:focus, 
-.hidden-xs .navbar-nav > li > a:hover,
+#desktop-menu .navbar-nav > li > a:focus, 
+#desktop-menu .navbar-nav > li > a:hover,
 
 .nav .open > a, 
 .nav .open > a:focus, 
@@ -435,31 +435,31 @@ img.alignleft {
   overflow-y: auto
 }
 
-.visible-xs .navbar-collapse .navbar-nav > li a {
+#mobile-menu .navbar-collapse .navbar-nav > li a {
   color: #777;
   display: block;
   padding: 5px 10px;
   cursor: pointer
 }
 
-.visible-xs .navbar-nav > li a:hover,
-.visible-xs .navbar-nav > li a:focus,
-.visible-xs .navbar-nav > li a:active{
+#mobile-menu .navbar-nav > li a:hover,
+#mobile-menu .navbar-nav > li a:focus,
+#mobile-menu .navbar-nav > li a:active{
   background-color: #b2afe8;
   color: #fff
 }
 
-.visible-xs .navbar-collapse .navbar-nav > .active > a, 
-.visible-xs .navbar-collapse .navbar-nav > .active > a:focus, 
-.visible-xs .navbar-collapse .navbar-nav > .active > a:hover,
+#mobile-menu .navbar-collapse .navbar-nav > .active > a, 
+#mobile-menu .navbar-collapse .navbar-nav > .active > a:focus, 
+#mobile-menu .navbar-collapse .navbar-nav > .active > a:hover,
 
-.visible-xs .navbar-collapse .navbar-nav > li > a:focus, 
-.visible-xs .navbar-collapse .navbar-nav > li > a:hover {
+#mobile-menu .navbar-collapse .navbar-nav > li > a:focus, 
+#mobile-menu .navbar-collapse .navbar-nav > li > a:hover {
   background-color: #b2afe8;
   color: #fff
 }
 
-.visible-xs .navbar-collapse .navbar-nav ul {
+#mobile-menu .navbar-collapse .navbar-nav ul {
   list-style: none;
   padding: 5px 0 0 20px
 }
@@ -574,6 +574,7 @@ ul li span.menu-toggler {
 #top-bar-social a .fa-flickr:hover { color: #ff0084 }
 #top-bar-social a .fa-instagram:hover { color: #517fa4 }
 #top-bar-social a .fa-vimeo-square:hover { color: #0CF }
+#top-bar-social a .fa-youtube:hover { color: #bb0000 }
 #top-bar-social a .fa-rss:hover { color: #ffac3d }
 
 .logo { margin-top: 10px }
@@ -1530,6 +1531,7 @@ img.footer-logo {
 .social-bar .linkedin:hover { background: #007bb6 }
 .social-bar .flickr:hover { background: #ff0084 }
 .social-bar .vimeo:hover { background: #0CF }
+.social-bar .fyoutube:hover { color: #fff }
 .social-bar .rss:hover { background: #ffac3d }
 
 .footer-bottom-wrapper {
@@ -2787,7 +2789,7 @@ ul.team-social-bar li a:hover {
   border-radius: 2px;
   padding: 20px;
   border-left: 6px solid #644c80;
-  float: left
+  width: 100%
 }
 
 .circlebtn {
