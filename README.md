@@ -52,6 +52,9 @@ Third-Party Plugins:
 ## Demo
 [Demo](http://rookie.croti.com/)
 
+## Changelog
+* 29-03-2015 [v1.1](https://github.com/abukwaik/rookie/blob/master/CHANGELOG.md#106)
+
 ## Credit
 
 * [Bootstrap 3](https://github.com/twbs/bootstrap)
